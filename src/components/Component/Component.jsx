@@ -1,12 +1,12 @@
 import React from 'react'
-import Result from '../Result/Result'
-import Summary from '../Summary/Summary'
+import ResultBox from '../ResultBox/ResultBox'
+import SummaryBox from '../SummaryBox/SummaryBox'
 
 const Component = () => {
   return (
       <div>
-          <Result />
-          <Summary/>
+          <ResultBox />
+          <SummaryBox/>
     </div>
   )
 }

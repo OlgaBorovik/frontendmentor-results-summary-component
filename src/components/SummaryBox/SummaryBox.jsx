@@ -3,7 +3,7 @@ import SummaryList from '../SummaryList/SummaryList'
 import Button from '../Button/Button'
 import Title from '../Title/Title'
 
-const Summary = () => {
+const SummaryBox = () => {
    
   return (
     <div>
@@ -15,4 +15,4 @@ const Summary = () => {
   )
 }
 
-export default Summary
+export default SummaryBox

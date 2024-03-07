@@ -1,14 +1,12 @@
 import React from 'react'
-import Title from '../Title/Title'
+import { ResultDownText, ResultUpperText, ResultWrapper } from './Result.styled'
 
 const Result = () => {
   return (
-    
-    <div>
-      <Title>Result</Title>
-      Result
-    
-    </div>
+      <ResultWrapper>
+          <ResultUpperText>76</ResultUpperText>
+          <ResultDownText>of 100</ResultDownText>
+    </ResultWrapper>
   )
 }
 
