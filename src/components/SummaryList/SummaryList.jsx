@@ -6,7 +6,8 @@ import { useState } from 'react';
 
 
 const SummaryList = () => {
-    const [items] = useState(data)
+  const [items] = useState(data)
+  console.log(items)
 
     return (
       <ul>

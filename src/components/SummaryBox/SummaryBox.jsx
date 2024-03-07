@@ -6,8 +6,8 @@ import Title from '../Title/Title'
 const SummaryBox = () => {
    
   return (
-    <div>
-        <Title>Summary</Title>
+    <div className='container'>
+      <Title style={{ color: "var(--darkGreyBlue)", textAlign: "left"}}>Summary</Title>
           <SummaryList />
           <Button/>
           
