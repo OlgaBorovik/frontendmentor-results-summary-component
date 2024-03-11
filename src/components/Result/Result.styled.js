@@ -12,6 +12,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: centes;
+@media screen and (min-width: 768px) {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 28px;
+}
 
 `
 
@@ -22,6 +27,9 @@ font-weight: 800;
 line-height: 1.29;
 letter-spacing: 0px;
 text-align: center;
+@media screen and (min-width: 768px) {
+    font-size: 72px;
+}
 `
 
 export const ResultDownText = styled.p`
@@ -31,4 +39,7 @@ font-weight: 700;
 line-height: 1.31;
 letter-spacing: 0px;
 text-align: center;
+@media screen and (min-width: 768px) {
+    font-size: 18px;
+}
 `
