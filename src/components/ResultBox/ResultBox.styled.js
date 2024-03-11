@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Results = styled.div`
 border-radius: 0 0 32px 32px;
 background: linear-gradient(180.00deg, rgb(119, 85, 255),rgb(105, 67, 255) 0.01%,rgb(47, 44, 233) 100%);
-padding-top: 24px;
-padding-bottom: 40px;
-margin-bottom: 24px;
+padding: 24px 57px 40px 58px;
+
+
 `
 
 export const ResultsCongratulations = styled.p`

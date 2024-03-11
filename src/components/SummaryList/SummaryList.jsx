@@ -1,5 +1,6 @@
 import React from 'react'
 import SummaryCard from '../SummaryCard/SummaryCard';
+import { SummaryItem, SumList } from './SummaryList.styled';
 import data from '../../data.json'
 import { useState } from 'react';
 
@@ -7,18 +8,17 @@ import { useState } from 'react';
 
 const SummaryList = () => {
   const [items] = useState(data)
-  console.log(items)
-
+  
     return (
-      <ul>
+      <SumList>
           {
-             items.map(({category, score, icon}) => (
-                  <li key={category}>
+             items.map(({category, score, icon}, index) => (
+                  <SummaryItem key={index}>
                       <SummaryCard category={category} score={score} icon={icon}/>
-                  </li>
+                  </SummaryItem>
              ))
           }
-    </ul>
+    </SumList>
   )
 }
 

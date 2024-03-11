@@ -7,7 +7,7 @@ import {Results, ResultsCongratulations, ResultsText} from './ResultBox.styled'
 const ResultBox = () => {
   return (
     
-    <Results className='container'>
+    <Results >
       <Title style={{ color: "#ffffff" }}>Your result</Title>
       <Result/>
       <ResultsCongratulations>Great</ResultsCongratulations>

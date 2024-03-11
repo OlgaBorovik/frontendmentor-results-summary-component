@@ -1,13 +1,13 @@
 import React from 'react'
-import { Card } from './SummaryCard.styled'
+import { Card, CardIcon, CardText, CardScore, CardTotalScore } from './SummaryCard.styled'
 
 const SummaryCard = ({category, score, icon}) => {
   return (
     <Card className={category}>
       
-      <img src={icon} alt="icon" />
-        <p>{category}</p>
-        <p>{score} / 100</p>
+      <CardIcon src={icon} alt="icon" />
+        <CardText>{category}</CardText>
+        <CardTotalScore><CardScore>{score}</CardScore> / 100</CardTotalScore>
           
     </Card>
   )
